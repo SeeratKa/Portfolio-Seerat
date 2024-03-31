@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  header hr {
+    border: 0;
+    height: 5px;
+    background-color: blueviolet;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(17, 17, 66);
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 30px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav ul li a:hover {
+    font-size: 1.5rem;
+    color: blueviolet;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+
+  /*.container{
+    display: flex;
+    border-color: beige;
+    justify-content: center;
+    margin-top: 30px;
+    
+  }
+  .container .image{
+    margin-top:38px;
+    height:133vh;
+     
+  }
+  .form-wrapper{
+    border-color: beige;
+  }*/
+  .form-check,
+.btn {
+  margin-left:24vh; 
+  
+}
+.container form div{
+  padding:10px 10px;
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(17, 17, 66);
+  height:500px;
+  
+}
+.container form div input{
+  width:25vw;
+  border-radius: 6px;
+  padding: 14px;
+}
+.container form div textarea{
+  width:25vw;
+  border-radius: 6px;
+  padding: 14px;
+  font-family: "Poppins", sans-serif;
+}
+#message {
+  padding-bottom: 30vh;
+}
+.btn{
+  text-decoration: none;
+  width: 6vw;
+  padding:10px;
+  background-color:black;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  margin-top: -5px;
+
+}
+
+
+  .footer-flex {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:25px;
+    font-size: 13px;
+  }
+  footer{
+    height: 35vh;
+    background-color: rgb(21, 21, 56);
+    margin-top:255px;
+  
+  }
+  .footer-flex > div {
+    width:150px;
+  }
+   footer ul{
+    list-style: none;
+  }
+  .footer4{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 11px;
+    color:gray;
+}
+
+.container {
+  width:946px; /* Adjust width as needed */
+  height:600px; /* Adjust height as needed */
+  position: relative; /* Add position relative for absolute positioning */
+  border: 2px solid beige; /* Add border for visualization */
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;/* Hide any overflow content */
+  margin-left:280px;
+}
+main h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+.image img {
+  width: 490px; /* Set width to auto to maintain aspect ratio */
+  height:600px; /* Make the image fill the height of its container */
+  object-fit: cover; 
+  margin-top:0px;/* Scale the image as large as possible while maintaining its aspect ratio */
+}
+
+
