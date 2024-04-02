@@ -59,7 +59,7 @@
  
 .leftsection .btn{
   text-decoration: none;
-  padding:12px;
+
   background-color:rgb(11, 11, 49);
   border: 2px solid white;
   border-radius: 3px;
@@ -70,7 +70,7 @@
 }
 .leftsection .btn1{
   text-decoration: none;
-  padding:12px;
+  
   background-color:rgb(11, 11, 49);
   border: 2px solid white;
   border-radius: 3px;
@@ -175,9 +175,15 @@
 /* Additional media query for smaller devices */
 @media screen and (max-width: 768px) {
   nav ul li {
-    margin: 20px 0;
+    margin: 1px 0px;
   }
-
+  .leftsection .btn,
+  .leftsection .btn1 {
+    padding: 3px;
+  }
+  nav ul li {
+    margin: 7px 12px;
+}
   .footer-flex {
     padding-top: 10px;
   }
